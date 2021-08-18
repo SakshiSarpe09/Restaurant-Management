@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+	font-family:  sans-serif;
+	background: url("food2.jpg") no-repeat;
+	background-size: cover;
+
+}
+
+.login-box{
+	width:280px;
+	position:absolute;
+	top:50%;
+	left:25%;
+	transform:translate(-50%,-50%);
+	color: white;
+	background: none;
+}
+.login-box h2{
+	float: left;
+	color: yellow;
+	border-bottom:3px solid #eeff00;
+	margin-bottom:50px;
+	padding:13px 0;
+	background: none;
+}
+.textbox{
+	width:100%;
+	overflow:hidden;
+	font-size:20px;
+	padding:8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #edfd07 ;
+	background: none;
+
+}
+
+.textbox input{
+	border:none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width:18px;
+	width:80%;
+	float:left ;
+	outline:none;
+	margin: 0 10px;
+}
+.btn{
+	width:fit-content;
+	background: yellow;
+	border:2px solid hsl(96, 93%, 48%);
+	color: rgb(0, 0, 0);
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	margin:12px 0;
+}
+.container{
+	height:100vh;
+	width:100%;
+	background-image: "";
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 4s;
+
+	animation-name: ani;
+	animation-duration: 20s ;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+    animation-play-state: running ;
+	animation-timing-function:ease-in-out ;
+
+}
+@keyframes ani{
+	0%{background-image: linear-gradient(rgb(0, 0, 0,0.3), rgba(0, 0, 0, 0.6)) url(Spices1.jpg);}
+	20%{background-image: linear-gradient(rgb(0, 0, 0,0.3), rgba(0, 0, 0, 0.6)) url(Spices2.jpg);}
+	40%{background-image: linear-gradient(rgb(0, 0, 0,0.3), rgba(0, 0, 0, 0.6)) url(Spices3.jpg);}
+	60%{background-image:linear-gradient(rgb(0, 0, 0,0.3), rgba(0, 0, 0, 0.6)) url(Spices5.jpg);}
+	80%{background-image: linear-gradient(rgb(0, 0, 0,0.3), rgba(0, 0, 0, 0.6)) url(Spices4.jpg);}
+	100%{background-image: linear-gradient(rgb(0, 0, 0,0.3), rgba(0, 0, 0, 0.6)) url(Spices1.jpg);}
+
+}
+.forgot{
+	
+	
+	background: none;
+	float: right;
+	color: #d0ff00;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	margin:12px 0;
+	
+}
+h2{
+	color: red;
+	background: none;
+
+}
+input{
+	color: #d0ff00;
+	background: none;
+	
+}
+input .placeholder .text{
+	background: none;
+	color: #eeff00;
+
+
+}
